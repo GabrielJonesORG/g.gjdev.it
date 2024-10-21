@@ -3,10 +3,7 @@
 
 body {
 
-}
-
-
-/* Stile per l'immagine */
+}/* Stile per l'immagine */
 img {
     max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
     height: auto;
@@ -28,7 +25,10 @@ img {
     color: #ffffff; /* Testo bianco */
     padding: 15px; /* Padding interno */
     border-radius: 5px; /* Angoli arrotondati */
+    border: 2px solid #00ff00; /* Bordo verde attorno al riquadro */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Ombra per un effetto sollevato */
     transition: background-color 0.3s; /* Transizione per l'effetto hover */
+    height: 150px; /* Altezza fissa per uniformità */
 }
 
 .post-item a {
