@@ -4,3 +4,38 @@
 body {
 
 }
+
+
+/* Stile per l'immagine */
+img {
+    max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
+    height: auto;
+    display: block; /* Assicura che l'immagine si comporti come un blocco */
+    margin: 0 auto 20px; /* Margine inferiore per separare l'immagine dal testo */
+}
+
+/* Stile per la lista dei post */
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Due colonne */
+    gap: 20px; /* Spazio tra le colonne */
+    margin-top: 20px; /* Spazio sopra i post */
+}
+
+/* Stile per ogni post */
+.post-item {
+    background-color: #1e1e1e; /* Colore di sfondo scuro */
+    color: #ffffff; /* Testo bianco */
+    padding: 15px; /* Padding interno */
+    border-radius: 5px; /* Angoli arrotondati */
+    transition: background-color 0.3s; /* Transizione per l'effetto hover */
+}
+
+.post-item a {
+    color: #00ff00; /* Colore del link verde */
+    text-decoration: none; /* Rimuove la sottolineatura dal link */
+}
+
+.post-item:hover {
+    background-color: #2e2e2e; /* Colore di sfondo scuro al passaggio del mouse */
+}
